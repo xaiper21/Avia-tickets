@@ -38,7 +38,7 @@
     Программа по умолчанию ищет файл по пути `src/main/resources/tickets.json` и выполняет расчеты для маршрута Владивосток (VVO) — Тель-Авив (TLV).
 
     ```
-    java -jar target/tickets-app.jar
+    java -jar target/Avia-tickets-1.0-SNAPSHOT.jar
     ```
 
     **Запуск с другим файлом:**
@@ -46,5 +46,5 @@
     Вы можете указать путь к другому файлу `JSON` в качестве аргумента командной строки.
 
     ```
-    java -jar target/tickets-app.jar путь/к/вашему/файлу.json
+    java -jar target/Avia-tickets-1.0-SNAPSHOT.jar путь/к/вашему/файлу.json
     ```
